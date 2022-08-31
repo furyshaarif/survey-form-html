@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 style="color:red;"><u> Fill Your Survey Form :-</u></h1>
+    <form action="">
+        <!-- LABEL TAG FOR NAME informetion  -->
+        <label for="name">Name</label> <br>
+        <!-- input tag for fill name hare  -->
+        <input type="text" name="name" id="name" placeholder="Enter Your Name" required> <br> <br>
+        <!-- label tag for email id informetion -->
+        <label for="email"> Email</label> <br>
+        <!-- input tag for fill email id -->
+        <input type="email" name="eamil" id="email" placeholder="test@gamil.com" required> <br> <br>
+        <!-- label tag for roll no. informetion -->
+        <label for="rollnumber">Roll Number</label> <br>
+        <!-- input tag for fill roll no. -->
+        <input type="Number" name="roll Number" id="rollnumber" placeholder="roll" required> <br> <br>
+        <!-- label for course rating -->
+        <label for="dropdown">How do you rate our course?</label> <br>
+        <!-- select option use for multiple option but other option is hide  -->
+        <select name="course" id="dropdown">
+            <!-- optin felid is used to complete  tag -->
+            <option value="excelent">Excellent</option>
+            <option value="good">Good</option>
+            <option value="normel">Normal</option>
+        </select> <br> <br>
+        <!-- label tag for selct opton list  -->
+        <label> Your Favorite Topic in<span style="color:blue ;"> <strong> HTML</strong></span> </label> <br>
+        <!-- input tag for checkbox  -->
+        <input type="checkbox" value="Structuralelements">Structural Elements <br>
+        <input type="checkbox" value="LinksandList">Links and List <br>
+        <input type="checkbox" value="HTMLMedia">HTML Media <br>
+        <input type="checkbox" velue="tables"> HTML Tables <br>
+        <input type="checkbox" value="groupelements"> Grouping Elements <br>
+        <input type="checkbox" value="forms"> Forms <br> <br>
+        <!-- label for select any one   -->
+        <label> Do you like the <span style="color:blue ;"> <strong> HTML</strong></span> course?</label> <br>
+        <!-- input for redio tag for any one slect  -->
+        <input class="y" type="radio" name="htmlcourse" value="yes">Yes
+        <input class="n" type="radio" name="htmlcourse" value="no"> No <br> <br>
+        <!-- label for textarea  -->
+        <label>Few words about course</label> <br>
+        <!-- textarea tag for fill the textarea  -->
+        <textarea name="comment" cols="50" rows="5" style="color: grey;"></textarea> <br> <br>
+        <!-- button for submit -->
+        <button style="color: red;">submit</button>
+    </form>
+</body>
+
+</html>
